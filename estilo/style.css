@@ -135,6 +135,9 @@ main > li > h2 {
 }
 
 @media (max-width:910px) {
+    li{
+        list-style: none;
+    }
    
     header {
         display: flex;
