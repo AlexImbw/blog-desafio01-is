@@ -72,7 +72,7 @@ input{
     outline: none;
     border-radius: 5px;
     background-color: #FFFFFF33;
-    background-image: url('/imagens/lupa.png');
+    background-image: url('lupa.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-position-x: 17px;
@@ -109,7 +109,7 @@ main > li {
     padding: 30px;
     font-family: 'Lexend Deca', sans-serif;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.041);
-    background-image: url('/imagens/coracao.png');
+    background-image: url('coracao.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-position-x: 97.25%;
@@ -193,7 +193,7 @@ main > li > h2 {
         outline: none;
         border-radius: 4px;
         background-color: #FFFFFF33;
-        background-image: url('/imagens/lupa.png');
+        background-image: url('lupa.png');
         background-size: 13px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -229,7 +229,7 @@ main > li > h2 {
         padding: 10px;
         font-family: 'Lexend Deca', sans-serif;
         box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.041);
-        background-image: url('/imagens/coracao.png');
+        background-image: url('coracao.png');
         background-size: 15px;
         background-repeat: no-repeat;
         background-position: right top;
