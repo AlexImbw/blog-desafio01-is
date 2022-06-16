@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-image: linear-gradient(to right, #574AE8, #3EA1DB);
+    color: white;
+    margin-bottom: 60px;
+    
+}
+
+#contheader{
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+#titleheader{
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom:55px;
+}
+
+header > div > div > h1 {
+    display: flex;
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    
+}
+
+header > div >div > p {
+    display: flex;
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+   
+}
+
+input{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 60px;
+    width: 900px;
+    height: 65px;
+    top: 144px;
+    left: 228px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #FFFFFF33;
+    background-image: url('/imagens/lupa.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 17px;
+
+   
+}
+input::placeholder{
+    color: white;
+    opacity: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    
+    
+}
+body{
+    background-color:#F3F5F7;
+    margin: auto;
+   
+}
+
+main {
+    margin: auto;
+    max-width: 900px;
+}
+
+main > div {
+    margin: auto;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.041);
+    background-image: url('/imagens/coracao.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position-x: 97.25%;
+    background-position-y: 15%;
+    
+}
+
+.data {
+    margin-bottom: 20px;
+}
+
+main > div > p {
+    color: #828486;
+    font-size: 17px;
+    display: inline-block;
+}
+
+main > div > h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+svg{
+   fill: white;
+
+}
+
+@media (max-width:910px) {
+   
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 155px;
+        margin: auto;
+        background-image: linear-gradient(to right, #574AE8, #3EA1DB);
+        color: white;
+        margin-bottom: 40px;
+        
+    }
+    #contheader{
+        width: 95%;
+        margin: auto;
+        margin-top: 25px;
+        justify-content: space-between;
+        padding: 15px;
+        
+    }
+    #titleheader{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 30px;
+        
+        
+    }
+    header > div > div > h1 {
+        display: flex;
+        font-size: 14px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        
+    }
+    header > div >div > p {
+        display: flex;
+        font-size: 14px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+       
+    }
+    input{
+        
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding-left: 45px;
+        width: 100%;
+        height: 30px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        background-color: #FFFFFF33;
+        background-image: url('/imagens/lupa.png');
+        background-size: 13px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+    }
+    input::placeholder{
+        color: white;
+        opacity: 50%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 11px;
+        
+        
+    }
+    body{
+        background-color:#F3F5F7;
+        margin: auto;
+       
+    }
+    
+    main {
+        margin: auto;
+        width: 90%;
+    }
+    
+    main > div {
+        margin: auto;
+        align-items: center;
+        text-align: justify;
+        border-radius: 5px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-family: 'Lexend Deca', sans-serif;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.041);
+        background-image: url('/imagens/coracao.png');
+        background-size: 15px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-position-x: 95.25%;
+        background-position-y: 10%;
+        
+    }
+    
+    .data {
+        margin-bottom: 20px;
+    }
+    
+    main > div > p {
+        color: #828486;
+        font-size: 11px;
+        display: inline-block;
+    }
+    
+    main > div > h2 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    
+    }
+    
+}
+
