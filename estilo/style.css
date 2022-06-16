@@ -13,6 +13,10 @@
     margin: 0px;
 }
 
+li{
+    list-style: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -95,7 +99,7 @@ main {
     max-width: 900px;
 }
 
-main > div {
+main > li {
     margin: auto;
     align-items: center;
     text-align: justify;
@@ -113,25 +117,20 @@ main > div {
     
 }
 
-.data {
+.date {
     margin-bottom: 20px;
 }
 
-main > div > p {
+main > li > p {
     color: #828486;
     font-size: 17px;
     display: inline-block;
 }
 
-main > div > h2 {
+main > li > h2 {
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 15px;
-
-}
-
-svg{
-   fill: white;
 
 }
 
@@ -217,7 +216,7 @@ svg{
         width: 90%;
     }
     
-    main > div {
+    main > li {
         margin: auto;
         align-items: center;
         text-align: justify;
@@ -236,17 +235,17 @@ svg{
         
     }
     
-    .data {
+    .date {
         margin-bottom: 20px;
     }
     
-    main > div > p {
+    main > li > p {
         color: #828486;
         font-size: 11px;
         display: inline-block;
     }
     
-    main > div > h2 {
+    main > li > h2 {
         font-size: 15px;
         font-weight: 400;
         margin-bottom: 12px;
